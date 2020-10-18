@@ -530,10 +530,17 @@ div.scrollmenu a:hover, a:focus, a:active, a:target {
 }
 
 
+#adMainMessage {
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 1.2em;
+  text-align: left; /*bootstrap override*/
+}
+
 @media only screen and (max-width: 479px) {
 
   #adMainMessage {
-    font-size: 1.2em;
+    font-size: 2.6em;
     font-weight: 600;
     line-height: 1.2em;
     //text-align: right; /*bootstrap override*/
@@ -551,12 +558,6 @@ div.scrollmenu a:hover, a:focus, a:active, a:target {
   text-align: left; /*bootstrap override*/
 }
 
-#adMainMessage {
-  font-size: 3em;
-  font-weight: 600;
-  line-height: 1.2em;
-  text-align: left; /*bootstrap override*/
-}
 
 
 /*
