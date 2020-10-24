@@ -7,7 +7,7 @@ import { BoilerInstallationComponent } from './services/boiler-installation/boil
 import { HeatingServicesComponent } from './services/heating-services/heating-services.component';
 import { LeakDetectionComponent } from './services/leak-detection/leak-detection.component';
 import { PlumbingServicesDublinComponent } from './services/plumbing-services-dublin/plumbing-services-dublin.component';
-
+import { AreasComponent } from './areas/areas.component';  
 
 const routes: Routes = [
   { path: 'plumbing-services', component: PlumbingServicesComponent },
@@ -15,6 +15,8 @@ const routes: Routes = [
   { path: 'services/leak-detection', component: LeakDetectionComponent  },
   { path: 'services/plumbing-services-dublin', component: PlumbingServicesDublinComponent  },
   { path: 'services/heating-services', component: HeatingServicesComponent },
+
+  { path: 'areas/plumber-swords', component: AreasComponent },
   { path: 'home', component: HomeComponent },
   { path: '**', component: HomeComponent }
 ];

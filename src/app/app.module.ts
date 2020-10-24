@@ -13,6 +13,11 @@ import { HeatingServicesComponent } from './services/heating-services/heating-se
 import { ServicesFooterComponent } from './services/common/services-footer/services-footer.component';
 import { ServicesMainComponent } from './services/common/services-main/services-main.component';
 import { ServicesSidebarComponent } from './services/common/services-sidebar/services-sidebar.component';
+import { AreasComponent } from './areas/areas.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { EmergencyPlumbingPricesComponent } from './emergency-plumbing-prices/emergency-plumbing-prices.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactDublinPlumberComponent } from './contact-dublin-plumber/contact-dublin-plumber.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,12 @@ import { ServicesSidebarComponent } from './services/common/services-sidebar/ser
     HeatingServicesComponent,
     ServicesFooterComponent,
     ServicesMainComponent,
-    ServicesSidebarComponent
+    ServicesSidebarComponent,
+    AreasComponent,
+    FaqsComponent,
+    EmergencyPlumbingPricesComponent,
+    AboutUsComponent,
+    ContactDublinPlumberComponent
   ],
   imports: [
     BrowserModule,

@@ -385,36 +385,29 @@ img {
 
 /*----------Standard Horizontal NAV BAR -------------*/
 
-@media only screen and (max-width:778px) {
-  div.scrollmenu {
-    display: none;
-  }
-}
+
 
 
 div.scrollmenu {
-  margin-top: 10px;
   overflow: auto;
   white-space: nowrap;
   width: 100%;
   text-align: center;
   text-justify: inter-word;
-  // background-color: #002d64; royal blue
-  color: white;
   background-color: #006199;
-  padding: .3em;
-  font-family: segoe-ui, 'Gill Sans MT', Geneva, Tahoma, sans-serif;
+  padding-top: .3em;
+  font-family: roboto-condensed-light, Gadugi, 'Gill Sans MT', Geneva, Tahoma, sans-serif;
 }
 
 div.scrollmenu a {
   text-decoration: none;
   display: inline-block;
   text-align: center;
+  font-size: 2em;
   color: white;
-  font-size: 1.6em;
   padding-left: 3%;
   padding-right: 3%;
-  // border-bottom: .2em solid transparent;
+  border-bottom: .2em solid transparent;
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -431,8 +424,27 @@ div.scrollmenu a {
 
 
 div.scrollmenu a:hover, a:focus, a:active, a:target {
-  border-bottom: .2em solid #007abf;
+  border-bottom: .1em solid #00aaff;
 }
+/*
+div.scrollmenu a:active,
+div.scrollmenu a:hover {
+  color: whitesmoke;
+}
+
+  div.scrollmenu a:link,
+div.scrollmenu a:visited {
+  color: white;
+}
+  */
+
+
+
+/* border under links on hover */
+
+/*-------/Nav Bar-----------*/
+
+
 
 
 #sidNoBackgroundSmall {
