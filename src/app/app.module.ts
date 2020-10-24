@@ -19,6 +19,7 @@ import { EmergencyPlumbingPricesComponent } from './emergency-plumbing-prices/em
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactDublinPlumberComponent } from './contact-dublin-plumber/contact-dublin-plumber.component';
 import { PlumberSwordsComponent } from './areas/plumber-swords/plumber-swords.component';
+import { NonEmergencyPlumbingPricesComponent } from './non-emergency-plumbing-prices/non-emergency-plumbing-prices.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { PlumberSwordsComponent } from './areas/plumber-swords/plumber-swords.co
     EmergencyPlumbingPricesComponent,
     AboutUsComponent,
     ContactDublinPlumberComponent,
-    PlumberSwordsComponent
+    PlumberSwordsComponent,
+    NonEmergencyPlumbingPricesComponent
   ],
   imports: [
     BrowserModule,

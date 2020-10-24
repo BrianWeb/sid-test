@@ -14,6 +14,11 @@ import { PlumbingServicesDublinComponent } from './services/plumbing-services-du
 import { AreasComponent } from './areas/areas.component';  
 import { PlumberSwordsComponent } from './areas/plumber-swords/plumber-swords.component';  
 
+//Rates:
+import { EmergencyPlumbingPricesComponent } from './emergency-plumbing-prices/emergency-plumbing-prices.component';
+import { NonEmergencyPlumbingPricesComponent } from './non-emergency-plumbing-prices/non-emergency-plumbing-prices.component';
+
+
 const routes: Routes = [
 
   //Services:
@@ -26,6 +31,11 @@ const routes: Routes = [
   //Areas:
   { path: 'areas', component: AreasComponent },
   { path: 'areas/plumber-swords', component: PlumberSwordsComponent },
+
+  //Rates
+  { path: 'emergency-plumbing-prices', component: EmergencyPlumbingPricesComponent },
+  { path: 'non-emergency-plumbing-prices', component: NonEmergencyPlumbingPricesComponent },
+
 
 
   { path: 'home', component: HomeComponent },
