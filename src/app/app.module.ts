@@ -20,6 +20,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactDublinPlumberComponent } from './contact-dublin-plumber/contact-dublin-plumber.component';
 import { PlumberSwordsComponent } from './areas/plumber-swords/plumber-swords.component';
 import { NonEmergencyPlumbingPricesComponent } from './non-emergency-plumbing-prices/non-emergency-plumbing-prices.component';
+import { CommonComponent } from './common/common.component';
+import { FooterComponent } from './common/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { NonEmergencyPlumbingPricesComponent } from './non-emergency-plumbing-pr
     AboutUsComponent,
     ContactDublinPlumberComponent,
     PlumberSwordsComponent,
-    NonEmergencyPlumbingPricesComponent
+    NonEmergencyPlumbingPricesComponent,
+    CommonComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

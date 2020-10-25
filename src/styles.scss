@@ -926,3 +926,23 @@ a {
   text-decoration: none
 }
 /* /Referrals */
+
+
+#commonFooter {
+  background-color: #31404e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #e6f7ff;
+
+  h3 {
+    color: white;
+  }
+
+  a {
+    color: #e6f7ff;
+  }
+
+  a:hover {
+    color: #00aaff;
+  }
+}
